@@ -2,7 +2,7 @@
 
 <a href="https://myclaw.ai"><img src="https://img.shields.io/badge/MyClaw.ai-Your_AI,_Your_Server,_Your_Rules-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6Ii8+PC9zdmc+" alt="MyClaw.ai" /></a>
 
-**🕷️ OpenClaw Ultra Scraping**
+# 🕷️ OpenClaw Ultra Scraping
 
 **Adaptive web scraping skill for OpenClaw agents — bypasses anti-bot, survives site redesigns.**
 
