@@ -1,0 +1,52 @@
+<div align="center">
+
+# 🕷️ OpenClaw Ultra Scraping
+
+**Адаптивный навык веб-скрейпинга для агентов OpenClaw — обходит защиту от ботов, переживает редизайн сайтов.**
+
+[![Powered by MyClaw.ai](https://img.shields.io/badge/Powered%20by-MyClaw.ai-blue?style=for-the-badge)](https://myclaw.ai)
+[![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--ultra--scraping-green?style=for-the-badge)](https://clawhub.com)
+[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow?style=for-the-badge)](../LICENSE)
+
+[English](../README.md) | [中文](README.zh-CN.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [Italiano](README.it.md) | [Español](README.es.md)
+
+</div>
+
+---
+
+## Что это?
+
+Навык для [OpenClaw](https://github.com/openclaw/openclaw), который даёт вашему ИИ-ассистенту мощные возможности веб-скрейпинга на основе фреймворка [Scrapling](https://github.com/D4Vinci/Scrapling).
+
+**Ваш агент теперь может:**
+- 🛡️ **Обходить Cloudflare**, Turnstile и другие системы защиты от ботов
+- 🔄 **Переживать редизайн сайтов** благодаря адаптивному отслеживанию элементов
+- ⚡ **Массовый краулинг** с параллелизмом, паузой/возобновлением и ротацией прокси
+- 🎯 **Точная извлечение** с CSS, XPath, текстовым поиском
+- 🌐 **Рендеринг JavaScript** SPA через headless-браузер
+
+## Установка
+
+```bash
+clawhub install openclaw-ultra-scraping
+```
+
+## Использование
+
+```bash
+PYTHON=/opt/scrapling-venv/bin/python3
+$PYTHON scripts/scrape.py fetch "https://example.com" --css ".content"
+$PYTHON scripts/scrape.py fetch "https://protected.com" --stealth --solve-cloudflare
+```
+
+## Благодарности
+
+Основан на [Scrapling](https://github.com/D4Vinci/Scrapling) от [Karim Shoair](https://github.com/D4Vinci). Лицензия: BSD-3-Clause.
+
+---
+
+<div align="center">
+
+**[MyClaw.ai](https://myclaw.ai)** — Ваш ИИ, ваш сервер, ваши правила.
+
+</div>
