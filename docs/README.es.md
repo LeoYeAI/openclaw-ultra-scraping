@@ -6,7 +6,7 @@
 
 [![Powered by MyClaw.ai](https://img.shields.io/badge/Powered%20by-MyClaw.ai-blue?style=for-the-badge)](https://myclaw.ai)
 [![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--ultra--scraping-green?style=for-the-badge)](https://clawhub.com)
-[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow?style=for-the-badge)](../LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](../LICENSE)
 
 [English](../README.md) | [中文](README.zh-CN.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [Русский](README.ru.md) | [日本語](README.ja.md) | [Italiano](README.it.md)
 
@@ -41,7 +41,7 @@ $PYTHON scripts/scrape.py fetch "https://protegido.com" --stealth --solve-cloudf
 
 ## Créditos
 
-Basado en [Scrapling](https://github.com/D4Vinci/Scrapling) por [Karim Shoair](https://github.com/D4Vinci). Licencia: BSD-3-Clause.
+Basado en [Scrapling](https://github.com/D4Vinci/Scrapling) por [Karim Shoair](https://github.com/D4Vinci). Licencia: MIT.
 
 ---
 

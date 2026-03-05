@@ -6,7 +6,7 @@
 
 [![Powered by MyClaw.ai](https://img.shields.io/badge/Powered%20by-MyClaw.ai-blue?style=for-the-badge)](https://myclaw.ai)
 [![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--ultra--scraping-green?style=for-the-badge)](https://clawhub.com)
-[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow?style=for-the-badge)](../LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](../LICENSE)
 
 [English](../README.md) | [中文](README.zh-CN.md) | [Deutsch](README.de.md) | [Русский](README.ru.md) | [日本語](README.ja.md) | [Italiano](README.it.md) | [Español](README.es.md)
 
@@ -46,7 +46,7 @@ $PYTHON scripts/scrape.py fetch "https://site-protege.com" --stealth --solve-clo
 
 ## Crédits
 
-Basé sur [Scrapling](https://github.com/D4Vinci/Scrapling) par [Karim Shoair](https://github.com/D4Vinci). Licence BSD-3-Clause.
+Basé sur [Scrapling](https://github.com/D4Vinci/Scrapling) par [Karim Shoair](https://github.com/D4Vinci). Licence MIT.
 
 ---
 

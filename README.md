@@ -1,12 +1,16 @@
 <div align="center">
 
-# 🕷️ OpenClaw Ultra Scraping
+<a href="https://myclaw.ai"><img src="https://img.shields.io/badge/MyClaw.ai-Your_AI,_Your_Server,_Your_Rules-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6Ii8+PC9zdmc+" alt="MyClaw.ai" /></a>
+
+**🕷️ OpenClaw Ultra Scraping**
 
 **Adaptive web scraping skill for OpenClaw agents — bypasses anti-bot, survives site redesigns.**
 
+> Built by [MyClaw.ai](https://myclaw.ai) — the AI personal assistant platform that gives every user a full server with complete code control. OpenClaw Ultra Scraping is one of many open-source skills that extend your AI agent's capabilities.
+
 [![Powered by MyClaw.ai](https://img.shields.io/badge/Powered%20by-MyClaw.ai-blue?style=for-the-badge)](https://myclaw.ai)
 [![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--ultra--scraping-green?style=for-the-badge)](https://clawhub.com)
-[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow?style=for-the-badge)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 [中文](docs/README.zh-CN.md) | [Français](docs/README.fr.md) | [Deutsch](docs/README.de.md) | [Русский](docs/README.ru.md) | [日本語](docs/README.ja.md) | [Italiano](docs/README.it.md) | [Español](docs/README.es.md)
 

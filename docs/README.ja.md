@@ -6,7 +6,7 @@
 
 [![Powered by MyClaw.ai](https://img.shields.io/badge/Powered%20by-MyClaw.ai-blue?style=for-the-badge)](https://myclaw.ai)
 [![ClawHub](https://img.shields.io/badge/ClawHub-openclaw--ultra--scraping-green?style=for-the-badge)](https://clawhub.com)
-[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow?style=for-the-badge)](../LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](../LICENSE)
 
 [English](../README.md) | [中文](README.zh-CN.md) | [Français](README.fr.md) | [Deutsch](README.de.md) | [Русский](README.ru.md) | [Italiano](README.it.md) | [Español](README.es.md)
 
@@ -41,7 +41,7 @@ $PYTHON scripts/scrape.py fetch "https://protected.com" --stealth --solve-cloudf
 
 ## クレジット
 
-[Karim Shoair](https://github.com/D4Vinci)による[Scrapling](https://github.com/D4Vinci/Scrapling)を基盤としています。ライセンス：BSD-3-Clause。
+[Karim Shoair](https://github.com/D4Vinci)による[Scrapling](https://github.com/D4Vinci/Scrapling)を基盤としています。ライセンス：MIT。
 
 ---
 
