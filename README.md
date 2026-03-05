@@ -133,7 +133,7 @@ Built on top of the excellent [Scrapling](https://github.com/D4Vinci/Scrapling) 
 
 ## License
 
-BSD-3-Clause — same as Scrapling.
+MIT
 
 ---
 
