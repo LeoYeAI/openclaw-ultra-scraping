@@ -16,7 +16,7 @@
 
 ## Was ist das?
 
-Ein [OpenClaw](https://github.com/openclaw/openclaw)-Agenten-Skill, der Ihrem KI-Assistenten leistungsstarke Web-Scraping-Fähigkeiten verleiht, basierend auf dem [Scrapling](https://github.com/D4Vinci/Scrapling)-Framework.
+Ein [OpenClaw](https://github.com/openclaw/openclaw)-Agenten-Skill, der Ihrem KI-Assistenten leistungsstarke Web-Scraping-Fähigkeiten verleiht — mit integrierter Anti-Bot-Umgehung, adaptiver Element-Verfolgung und parallelem Crawling.
 
 **Ihr Agent kann jetzt:**
 - 🛡️ **Cloudflare umgehen**, Turnstile und andere Anti-Bot-Systeme
@@ -44,9 +44,9 @@ $PYTHON scripts/scrape.py fetch "https://example.com" --css ".content"
 $PYTHON scripts/scrape.py fetch "https://geschuetzte-seite.com" --stealth --solve-cloudflare
 ```
 
-## Credits
+## Lizenz
 
-Basiert auf [Scrapling](https://github.com/D4Vinci/Scrapling) von [Karim Shoair](https://github.com/D4Vinci). Lizenz: MIT.
+MIT
 
 ---
 

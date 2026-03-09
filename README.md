@@ -20,7 +20,7 @@
 
 ## What is this?
 
-An [OpenClaw](https://github.com/openclaw/openclaw) agent skill that gives your AI assistant powerful web scraping superpowers, powered by the [Scrapling](https://github.com/D4Vinci/Scrapling) framework.
+An [OpenClaw](https://github.com/openclaw/openclaw) agent skill that gives your AI assistant powerful web scraping superpowers — with built-in anti-bot bypass, adaptive element tracking, and concurrent crawling.
 
 **Your agent can now:**
 - 🛡️ **Bypass Cloudflare**, Turnstile, and other anti-bot systems out of the box
@@ -43,7 +43,7 @@ clawhub install openclaw-ultra-scraping
 # Clone into your OpenClaw skills directory
 git clone https://github.com/LeoYeAI/openclaw-ultra-scraping.git ~/.openclaw/workspace/skills/openclaw-ultra-scraping
 
-# Run setup (installs Scrapling + browsers)
+# Run setup (installs dependencies + browsers)
 bash ~/.openclaw/workspace/skills/openclaw-ultra-scraping/scripts/setup.sh
 ```
 
@@ -126,10 +126,6 @@ products = page.css('.product', adaptive=True)     # Later: find even if HTML ch
 - OpenClaw instance (get one at [myclaw.ai](https://myclaw.ai))
 - Python 3.10+
 - ~2GB disk space (for browsers)
-
-## Credits
-
-Built on top of the excellent [Scrapling](https://github.com/D4Vinci/Scrapling) framework by [Karim Shoair](https://github.com/D4Vinci).
 
 ## License
 

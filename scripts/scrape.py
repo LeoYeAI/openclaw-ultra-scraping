@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""OpenClaw Ultra Scraping — unified CLI for Scrapling-powered web scraping.
+"""OpenClaw Ultra Scraping — unified CLI for adaptive web scraping.
 
 Usage:
   scrape.py fetch <url> [--css SELECTOR] [--xpath SELECTOR] [--output FILE] [--format FORMAT] [--stealth] [--dynamic] [--solve-cloudflare] [--headless] [--impersonate BROWSER] [--timeout SECONDS]
@@ -17,7 +17,7 @@ import json
 import re
 import argparse
 
-# Ensure the scrapling venv is available
+# Ensure the scraping venv is available
 VENV_PYTHON = "/opt/scrapling-venv/bin/python3"
 VENV_SITE = "/opt/scrapling-venv/lib/python3.12/site-packages"
 
@@ -47,7 +47,7 @@ def get_fetcher(args):
 
 
 def fetch_page(args):
-    """Fetch a page and return the Scrapling response."""
+    """Fetch a page and return the response."""
     fetcher_cls, kwargs = get_fetcher(args)
     timeout = getattr(args, 'timeout', None)
     if timeout:
@@ -208,7 +208,7 @@ def cmd_links(args):
 
 
 def cmd_crawl(args):
-    """Simple crawl using Scrapling Spider."""
+    """Simple crawl using Spider framework."""
     import asyncio
     from scrapling.spiders import Spider, Response
 
@@ -261,7 +261,7 @@ def cmd_crawl(args):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='OpenClaw Ultra Scraping — Scrapling-powered web scraping',
+        description='OpenClaw Ultra Scraping — adaptive web scraping toolkit',
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     subparsers = parser.add_subparsers(dest='command', help='Command to run')

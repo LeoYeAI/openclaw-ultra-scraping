@@ -16,7 +16,7 @@
 
 ## Что это?
 
-Навык для [OpenClaw](https://github.com/openclaw/openclaw), который даёт вашему ИИ-ассистенту мощные возможности веб-скрейпинга на основе фреймворка [Scrapling](https://github.com/D4Vinci/Scrapling).
+Навык для [OpenClaw](https://github.com/openclaw/openclaw), который даёт вашему ИИ-ассистенту мощные возможности веб-скрейпинга — с встроенным обходом защиты от ботов, адаптивным отслеживанием элементов и параллельным краулингом.
 
 **Ваш агент теперь может:**
 - 🛡️ **Обходить Cloudflare**, Turnstile и другие системы защиты от ботов
@@ -39,9 +39,9 @@ $PYTHON scripts/scrape.py fetch "https://example.com" --css ".content"
 $PYTHON scripts/scrape.py fetch "https://protected.com" --stealth --solve-cloudflare
 ```
 
-## Благодарности
+## Лицензия
 
-Основан на [Scrapling](https://github.com/D4Vinci/Scrapling) от [Karim Shoair](https://github.com/D4Vinci). Лицензия: MIT.
+MIT
 
 ---
 

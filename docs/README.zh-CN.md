@@ -16,7 +16,7 @@
 
 ## 这是什么？
 
-一个 [OpenClaw](https://github.com/openclaw/openclaw) 智能体技能，基于 [Scrapling](https://github.com/D4Vinci/Scrapling) 框架，赋予你的 AI 助手强大的网页爬虫能力。
+一个 [OpenClaw](https://github.com/openclaw/openclaw) 智能体技能，赋予你的 AI 助手强大的网页爬虫能力 — 内置反爬突破、自适应元素追踪和并发爬取。
 
 **你的智能体现在可以：**
 - 🛡️ **突破 Cloudflare**、Turnstile 等反爬系统
@@ -81,10 +81,6 @@ $PYTHON scripts/scrape.py crawl "https://example.com" --depth 2 --concurrency 10
 - OpenClaw 实例（在 [myclaw.ai](https://myclaw.ai) 获取）
 - Python 3.10+
 - ~2GB 磁盘空间（浏览器）
-
-## 致谢
-
-基于 [Karim Shoair](https://github.com/D4Vinci) 开发的 [Scrapling](https://github.com/D4Vinci/Scrapling) 框架。
 
 ## 许可证
 

@@ -1,7 +1,7 @@
 ---
 name: openclaw-ultra-scraping
 description: >
-  Powerful web scraping, crawling, and data extraction using Scrapling framework.
+  Powerful web scraping, crawling, and data extraction with stealth anti-bot bypass.
   Bypasses anti-bot systems (Cloudflare Turnstile, CAPTCHAs) out of the box.
   Use when: (1) scraping websites that block normal requests, (2) extracting structured
   data from web pages, (3) crawling multiple pages with concurrency, (4) taking
@@ -14,7 +14,7 @@ description: >
 
 # OpenClaw Ultra Scraping
 
-Adaptive web scraping framework powered by [Scrapling](https://github.com/D4Vinci/Scrapling). Handles everything from single-page extraction to full-scale concurrent crawls with anti-bot bypass.
+Adaptive web scraping framework for OpenClaw agents. Handles everything from single-page extraction to full-scale concurrent crawls with anti-bot bypass.
 
 ## Setup
 
@@ -24,7 +24,7 @@ Run once before first use:
 bash scripts/setup.sh
 ```
 
-This installs Scrapling + all browser dependencies into `/opt/scrapling-venv`.
+This installs all dependencies + browser engines into `/opt/scrapling-venv`.
 
 ## Quick Start — CLI Script
 

@@ -16,7 +16,7 @@
 
 ## これは何ですか？
 
-[OpenClaw](https://github.com/openclaw/openclaw)エージェントスキルで、[Scrapling](https://github.com/D4Vinci/Scrapling)フレームワークを使用して、AIアシスタントに強力なWebスクレイピング機能を提供します。
+[OpenClaw](https://github.com/openclaw/openclaw)エージェントスキルで、AIアシスタントに強力なWebスクレイピング機能を提供します — アンチボット突破、適応型要素追跡、並行クロールを内蔵。
 
 **エージェントが可能になること：**
 - 🛡️ **Cloudflare突破** — Turnstileなどのアンチボットシステムを回避
@@ -39,9 +39,9 @@ $PYTHON scripts/scrape.py fetch "https://example.com" --css ".content"
 $PYTHON scripts/scrape.py fetch "https://protected.com" --stealth --solve-cloudflare
 ```
 
-## クレジット
+## ライセンス
 
-[Karim Shoair](https://github.com/D4Vinci)による[Scrapling](https://github.com/D4Vinci/Scrapling)を基盤としています。ライセンス：MIT。
+MIT
 
 ---
 

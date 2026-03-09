@@ -16,7 +16,7 @@
 
 ## Cos'è?
 
-Uno skill [OpenClaw](https://github.com/openclaw/openclaw) che fornisce al tuo assistente IA potenti capacità di web scraping, basato sul framework [Scrapling](https://github.com/D4Vinci/Scrapling).
+Uno skill [OpenClaw](https://github.com/openclaw/openclaw) che fornisce al tuo assistente IA potenti capacità di web scraping — con bypass anti-bot integrato, tracciamento adattivo degli elementi e crawling concorrente.
 
 **Il tuo agente ora può:**
 - 🛡️ **Aggirare Cloudflare**, Turnstile e altri sistemi anti-bot
@@ -39,9 +39,9 @@ $PYTHON scripts/scrape.py fetch "https://example.com" --css ".content"
 $PYTHON scripts/scrape.py fetch "https://protetto.com" --stealth --solve-cloudflare
 ```
 
-## Crediti
+## Licenza
 
-Basato su [Scrapling](https://github.com/D4Vinci/Scrapling) di [Karim Shoair](https://github.com/D4Vinci). Licenza: MIT.
+MIT
 
 ---
 

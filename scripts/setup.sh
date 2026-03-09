@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # OpenClaw Ultra Scraping — one-shot setup
-# Installs Scrapling with all extras into /opt/scrapling-venv
+# Installs scraping dependencies with all extras into /opt/scrapling-venv
 
 set -e
 
@@ -8,7 +8,7 @@ VENV="/opt/scrapling-venv"
 SCRAPLING_BIN="$VENV/bin/scrapling"
 
 if [ -f "$SCRAPLING_BIN" ]; then
-  echo "✅ Scrapling already installed at $VENV"
+  echo "✅ Scraping engine already installed at $VENV"
   "$VENV/bin/python3" -c "import scrapling; print(f'  Version: {scrapling.__version__}')" 2>/dev/null || true
   exit 0
 fi
@@ -23,11 +23,11 @@ apt-get install -y -qq python3.12-venv python3-full \
 echo "🐍 Creating virtualenv at $VENV..."
 python3 -m venv "$VENV"
 
-echo "📦 Installing Scrapling (all extras)..."
+echo "📦 Installing scraping engine (all extras)..."
 "$VENV/bin/pip" install --quiet "scrapling[all]"
 
 echo "🌐 Installing browsers..."
 "$VENV/bin/scrapling" install
 
 echo "✅ Setup complete!"
-"$VENV/bin/python3" -c "import scrapling; print(f'  Scrapling {scrapling.__version__} ready')"
+"$VENV/bin/python3" -c "import scrapling; print(f'  Scraping engine {scrapling.__version__} ready')"
