@@ -16,16 +16,37 @@ import os
 import json
 import re
 import argparse
+from pathlib import Path
 
-# Ensure the scraping venv is available
-VENV_PYTHON = "/opt/scrapling-venv/bin/python3"
-VENV_SITE = "/opt/scrapling-venv/lib/python3.12/site-packages"
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
 
-if VENV_SITE not in sys.path:
-    sys.path.insert(0, VENV_SITE)
+from env import add_site_packages, detect_venv, describe_runtime
+
+DETECTED_VENV = detect_venv()
+DETECTED_SITE = add_site_packages(DETECTED_VENV)
+
+def ensure_scrapling_importable():
+    """Fail with a helpful error if Scrapling is not importable."""
+    try:
+        import scrapling  # noqa: F401
+    except ImportError:
+        runtime = describe_runtime()
+        print(
+            "Error: Scrapling is not importable.\n"
+            f"Detected venv: {runtime['venv']}\n"
+            f"Detected site-packages: {runtime['site_packages']}\n"
+            f"Candidates checked: {', '.join(runtime['candidates'])}\n"
+            "Set SCRAPLING_VENV to your Scrapling virtualenv, or run scripts/setup.sh.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+
 
 def get_fetcher(args):
     """Return the appropriate fetcher based on flags."""
+    ensure_scrapling_importable()
     if getattr(args, 'stealth', False):
         from scrapling.fetchers import StealthyFetcher
         return StealthyFetcher, {
