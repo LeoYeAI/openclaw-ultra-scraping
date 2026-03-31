@@ -24,14 +24,26 @@ Run once before first use:
 bash scripts/setup.sh
 ```
 
-This installs all dependencies + browser engines into `/opt/scrapling-venv`.
+Cross-platform behavior:
+- **macOS**: installs into `~/scrapling-venv` by default
+- **Linux**: installs into `/opt/scrapling-venv` by default
+- Override either with `SCRAPLING_VENV=/path/to/venv`
+
+The CLI auto-detects Scrapling in this order:
+1. `$SCRAPLING_VENV`
+2. `~/scrapling-venv`
+3. `/opt/scrapling-venv`
 
 ## Quick Start — CLI Script
 
 The bundled `scripts/scrape.py` provides a unified CLI:
 
 ```bash
-PYTHON=/opt/scrapling-venv/bin/python3
+# macOS example
+PYTHON=~/scrapling-venv/bin/python3
+
+# Linux example
+# PYTHON=/opt/scrapling-venv/bin/python3
 
 # Simple fetch (JSON output)
 $PYTHON scripts/scrape.py fetch "https://example.com" --css ".content"
